@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { IonHeader, IonToolbar, IonButtons, IonMenuButton, IonTitle, IonContent, IonButton } from '@ionic/angular/standalone';
+import { IonContent } from '@ionic/angular/standalone';
+import { SidemenuComponent } from "../../components/sidemenu/sidemenu.component";
 
 
 @Component({
@@ -7,8 +8,7 @@ import { IonHeader, IonToolbar, IonButtons, IonMenuButton, IonTitle, IonContent,
   templateUrl: './page2.component.html',
   styleUrls: ['./page2.component.scss'],
   standalone: true,
-  imports: [IonHeader, IonToolbar, IonButtons, IonMenuButton, IonTitle, IonContent, IonButton]
-
+  imports: [SidemenuComponent, IonContent]
 })
 export class Page2Component implements OnInit {
 

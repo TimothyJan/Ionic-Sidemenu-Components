@@ -18,6 +18,6 @@ Process
       <li>You rely on libraries that don’t support standalone yet.</li>
     </ul>
   </li>
-  <li>Create organizer with the sidemenu with appropriate links.</li>
+  <li>Create organizer component with the sidemenu component with appropriate links to components.</li>
   <li>Create routes in main.ts to load components.</li>
 </ul>
