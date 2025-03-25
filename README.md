@@ -19,4 +19,6 @@ Process
     </ul>
   </li>
   <li></li>
+  <li>Create organizer with the sidemenu with appropriate links.</li>
+  <li>Create routes in main.ts to load components.</li>
 </ul>
